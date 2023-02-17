@@ -6,7 +6,7 @@
 * Axios
 * Tailwind
 
-[Ссылка на gh-pages](https://artem-mit.github.io/redux-toolkit-example/)
+[Gh-pages link](https://artem-mit.github.io/redux-toolkit-example/)
 
 ## Available Scripts
 
