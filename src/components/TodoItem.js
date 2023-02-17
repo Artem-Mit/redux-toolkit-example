@@ -1,6 +1,5 @@
-import React from 'react'
-import { useDispatch } from 'react-redux'
-import { toggleCompletedTodo, deleteTodo } from '../features/todoSlice'
+import { useDispatch } from 'react-redux';
+import { toggleCompletedTodo, deleteTodo } from '../features/todoSlice';
 
 const TodoItem = ({ todo }) => {
   const dispatch = useDispatch();

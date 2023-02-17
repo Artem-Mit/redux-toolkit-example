@@ -3,6 +3,7 @@
 * React create app
 * Redux-toolkit (+ async)
 * React-Redux
+* Axios
 * Tailwind
 
 

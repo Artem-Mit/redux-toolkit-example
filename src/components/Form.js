@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import { addTodo } from '../features/todoSlice';
@@ -29,7 +29,7 @@ const Form = () => {
       <button
         type='submit'
         className='shrink-0 bg-lime-300  hover:bg-lime-400 transition-all px-3 text-sm'
-        onClick={() => addTodoHandler()}
+        onClick={addTodoHandler}
       >
         Submit
       </button>

@@ -25,7 +25,7 @@ function App() {
                   key={todo.id}
                   todo={todo}
                 />
-              )) : <p className='text-center my-5 font-medium'>Пусто :(</p>
+              )) : <p className='text-center my-5 font-medium'>Empty :(</p>
             }
           </div>
           <div className='w-1/3'>
